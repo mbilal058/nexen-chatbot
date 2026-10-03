@@ -1,0 +1,1 @@
+ALTER TABLE public.bot_config ADD COLUMN IF NOT EXISTS temperature real NOT NULL DEFAULT 0.3 CHECK (temperature >= 0 AND temperature <= 1);

@@ -1,0 +1,1 @@
+ALTER TABLE public.chat_sessions ADD COLUMN IF NOT EXISTS is_ai_enabled boolean NOT NULL DEFAULT true;
